@@ -1,0 +1,67 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background: #000000;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.nav-wrapper{
+padding:10px;
+}
+
+.navbar{
+background: linear-gradient(135deg, #0d2d0d, #000000);
+border-radius:40px;
+padding:18px 30px;
+border:1px solid rgba(255,255,255,0.08);
+box-shadow:0 0 40px rgba(0,150,255,0.15);
+}
+
+.logo{
+font-size:32px;
+font-weight:bold;
+color:white;
+}
+
+.logo span{
+color:#39ff14;
+}
+
+.nav-link{
+color:#9e9e9e;
+margin:0 14px;
+font-size:16px;
+transition:0.3s ease;
+}
+
+.nav-link:hover{
+color:#39ff14;
+}
+
+.meeting-btn{
+background:#39ff14;
+color:black;
+padding:12px 25px;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+display:inline-block;
+}
+
+.meeting-btn:hover{
+background:#29d80f;
+}
+
+.navbar-toggler{
+border-color:white;
+}
+.container-fluid{
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
