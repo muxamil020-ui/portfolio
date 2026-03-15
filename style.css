@@ -3,6 +3,10 @@ margin:0;
 padding:0;
 box-sizing:border-box;
 }
+::selection{
+color:#000000;
+background:#39ff14;
+}
 body{
 background: #000000;
     font-family:Arial, Helvetica, sans-serif;
