@@ -59,3 +59,60 @@ display:flex;
 align-items:center;
 justify-content:space-between;
 }
+.hero{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-clip:url(3130284-uhd_3840_2160_30fps.mp4) ;
+    
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.hero-video{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:cover;
+z-index:-1;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.hero-content {
+    position: relative;
+    color: #ffffff;
+    max-width: 700px;
+}
+.hero-title{
+    font-size: 60px;
+    font-weight: bold;
+}
+.hero-subtitle{
+    font-size: 28px;
+    color:#39ff14;
+    margin-bottom:25px;
+}
+.hero-btn{
+    background:#39ff14;
+    color:black;
+    padding:12px 30px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+.hero-btn:hover{
+    background:#29d80f;
+}
