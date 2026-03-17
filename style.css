@@ -5,19 +5,22 @@ box-sizing:border-box;
 }
 ::selection{
 color:#000000;
-background:#39ff14;
+background:#145f07;
 }
 body{
 background: #000000;
     font-family:Arial, Helvetica, sans-serif;
+    padding-top:100px;
+    margin-top: 10px;
 }
 .nav-wrapper{
-padding:10px;
+padding: 20px;
 }
 .navbar{
 background: linear-gradient(135deg, #0d2d0d, #000000);
 border-radius:40px;
 padding:18px 30px;
+margin: 10px 20px;
 border:1px solid rgba(255,255,255,0.08);
 box-shadow:0 0 40px rgba(0,150,255,0.15);
 }
@@ -65,8 +68,7 @@ justify-content:space-between;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-clip:url(3130284-uhd_3840_2160_30fps.mp4) ;
-    
+    background-clip:url(hero.mp4) ;   
     background-size: cover;
     background-position: center;
     position: relative;
@@ -80,7 +82,6 @@ height:100%;
 object-fit:cover;
 z-index:-1;
 }
-
 .hero::before {
     content: "";
     position: absolute;
